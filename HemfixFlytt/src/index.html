@@ -1,94 +1,152 @@
 <!DOCTYPE html>
 <html lang="sv">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/home-page.css">
+    <script type="module" src="index.js"></script>
 
-    <title>Hemfix & Flytt - Hem</title>
+    <title>Hemfix & Flytt</title>
 
-    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <a href="index.html">Hemfix & Flytt</a>
-
-            <ul>
-                <li><a href="index.html">Hem</a></li>
-                <li><a href="about.html">Om oss</a></li>
-                <li><a href="services.html">Tjänster</a></li>
-                <li><a href="moving.html">Flytt</a></li>
-                <li><a href="cleaning.html">Städning</a></li>
-                <li><a href="garden.html">Trädgård</a></li>
-                <li><a href="booking.html">Bokning</a></li>
-                <li><a href="contact.html">Kontakt</a></li>
-            </ul>
-        </nav>
-    </header>
+    <header></header>
 
     <main>
 
-        <section>
-            <h1>Hemfix & Flytt</h1>
+        <section class="hero">
 
-            <p>
-                Vi hjälper dig med flytt, städning, trädgård och andra
-                tjänster för hemmet.
-            </p>
+            <div class="container">
 
-            <a href="booking.html">Boka en tjänst</a>
+                <h1>Hemfix & Flytt</h1>
+
+                <p>
+                    Vi hjälper dig med flytt, städning,
+                    trädgård och andra tjänster för hemmet.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a class="btn btn-primary" href="booking.html">
+                        Boka en tjänst
+                    </a>
+
+                    <a class="btn" href="contact.html">
+                        Kontakta oss
+                    </a>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>Våra tjänster</h2>
 
-            <article>
-                <h3>Flytt</h3>
-                <p>
-                    Vi hjälper dig med flytt och transport av dina möbler
-                    och tillhörigheter.
-                </p>
-                <a href="moving.html">Läs mer</a>
-            </article>
+        <section class="services">
 
-            <article>
-                <h3>Städning</h3>
-                <p>
-                    Vi erbjuder olika typer av städtjänster för hem och
-                    andra utrymmen.
-                </p>
-                <a href="cleaning.html">Läs mer</a>
-            </article>
+            <div class="container">
 
-            <article>
-                <h3>Trädgård</h3>
-                <p>
-                    Behöver du hjälp med trädgården? Vi hjälper till med
-                    olika typer av trädgårdsarbete.
-                </p>
-                <a href="garden.html">Läs mer</a>
-            </article>
+                <h2>Våra tjänster</h2>
+
+                <div class="service-list">
+
+                    <article class="service-card">
+
+                        <h3>Flytt</h3>
+
+                        <p>
+                            Vi hjälper dig med flytt och transport
+                            av dina möbler och tillhörigheter.
+                        </p>
+
+                        <a class="btn" href="moving.html">
+                            Läs mer
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <h3>Städning</h3>
+
+                        <p>
+                            Vi erbjuder olika typer av
+                            städtjänster för hemmet.
+                        </p>
+
+                        <a class="btn" href="cleaning.html">
+                            Läs mer
+                        </a>
+
+                    </article>
+
+
+                    <article class="service-card">
+
+                        <h3>Trädgård</h3>
+
+                        <p>
+                            Vi hjälper till med olika typer
+                            av trädgårdsarbete.
+                        </p>
+
+                        <a class="btn" href="garden.html">
+                            Läs mer
+                        </a>
+
+                    </article>
+
+                </div>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>Behöver du hjälp?</h2>
 
-            <p>
-                Kontakta oss eller skicka in en bokningsförfrågan så
-                återkommer vi.
-            </p>
+        <section class="home-contact">
 
-            <a href="booking.html">Boka tjänst</a>
-            <a href="contact.html">Kontakta oss</a>
+            <div class="container">
+
+                <h2>Behöver du hjälp?</h2>
+
+                <p>
+                    Skicka en bokningsförfrågan eller
+                    kontakta oss för mer information.
+                </p>
+
+                <a class="btn btn-primary" href="booking.html">
+                    Boka tjänst
+                </a>
+
+            </div>
+
         </section>
 
     </main>
 
+
     <footer>
-        <p>&copy; 2026 Hemfix & Flytt</p>
+
+        <p>
+            &copy; 2026 Hemfix & Flytt
+        </p>
+
     </footer>
 
+
+    <script type="module">
+
+        import Navbar from './js/navigation.js';
+
+        new Navbar();
+
+    </script>
+
 </body>
+
 </html>

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+@import './navbar.css';
+@import './util.css';
+@import './homepage.css';
+
+:root {
+    --primary-color: #1f2937;
+    --secondary-color: #f59e0b;
+    --background-color: #f5f5f5;
+    --surface-color: #ffffff;
+    --text-color: #222222;
+    --light-text-color: #ffffff;
+    --primary-border-color: #d1d5db;
+    --button-hover-background: #d97706;
+    --link-color: #f59e0b;
+    --max-width: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+main {
+    padding: 0 2rem;
+}
+
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2;
+}
+
+button,
+input,
+textarea,
+select {
+    font-family: inherit;
+}
+
+.container {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
