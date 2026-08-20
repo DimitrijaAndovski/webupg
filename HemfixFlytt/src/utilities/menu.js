@@ -15,53 +15,47 @@ export default class Navbar {
     #createNavbar() {
 
         return /*html*/ `
-
             <nav>
-
                 <ul>
-
                     <li class="logo">
-                        <a href="/index.html">
+                        <a href="/">
                             <span>Hemfix & Flytt</span>
                         </a>
                     </li>
 
                     <li class="menu-item">
-                        <a href="/index.html">Hem</a>
+                        <a href="/">Hem</a>
                     </li>
 
                     <li class="menu-item">
-                        <a href="/about.html">Om oss</a>
+                        <a href="/pages/about/about.html">Om oss</a>
                     </li>
 
                     <li class="menu-item">
-                        <a href="/services.html">Tjänster</a>
+                        <a href="/pages/services/services.html">Tjänster</a>
                     </li>
 
                     <li class="menu-item">
-                        <a href="/moving.html">Flytt</a>
+                        <a href="/pages/moving/moving.html">Flytt</a>
                     </li>
 
                     <li class="menu-item">
-                        <a href="/cleaning.html">Städning</a>
+                        <a href="/pages/cleaning/cleaning.html">Städning</a>
                     </li>
 
                     <li class="menu-item">
-                        <a href="/garden.html">Trädgård</a>
+                        <a href="/pages/garden/garden.html">Trädgård</a>
                     </li>
 
                     <li class="menu-item">
-                        <a href="/booking.html">Bokning</a>
+                        <a href="/pages/booking/booking.html">Bokning</a>
                     </li>
 
                     <li class="menu-item">
-                        <a href="/contact.html">Kontakt</a>
+                        <a href="/pages/contact/contact.html">Kontakt</a>
                     </li>
-
                 </ul>
-
             </nav>
-
         `;
     }
 

@@ -1,1 +1,21 @@
 @import '../../assets/css/site.css';
+
+main {
+    min-height: 70vh;
+    padding: 5rem 2rem;
+}
+
+main .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+main h1 {
+    margin-bottom: 1.5rem;
+}
+
+main p {
+    max-width: 700px;
+}

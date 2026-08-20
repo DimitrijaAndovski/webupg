@@ -2,7 +2,6 @@
 
 @import './navbar.css';
 @import './util.css';
-@import './homepage.css';
 
 :root {
     --primary-color: #1f2937;
@@ -61,4 +60,13 @@ select {
     width: 100%;
     max-width: var(--max-width);
     margin: 0 auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: var(--primary-color);
+    color: var(--light-text-color);
 }

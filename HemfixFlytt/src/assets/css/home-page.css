@@ -1,4 +1,4 @@
-@import 'site.css';
+@import './site.css';
 
 .hero {
     min-height: 500px;
@@ -11,10 +11,11 @@
 }
 
 .hero .container {
+    width: 100%;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    width: 100%;
 }
 
 .hero h1 {
@@ -102,6 +103,7 @@
 }
 
 @media (max-width: 800px) {
+
     .hero {
         min-height: 400px;
         padding: 4rem 1rem;
@@ -112,8 +114,8 @@
     }
 
     .hero-buttons {
-        flex-direction: column;
         width: 100%;
+        flex-direction: column;
         align-items: center;
     }
 
